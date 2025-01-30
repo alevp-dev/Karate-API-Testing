@@ -1,0 +1,12 @@
+{"bookingid": "#number",
+  "booking":{
+    "firstname":"Andrés",
+    "lastname":"Torres",
+    "totalprice":300,
+    "depositpaid":true,
+    "bookingdates":{
+      "checkin":"2025-01-01",
+      "checkout":"2025-01-06"},
+    "additionalneeds":"Dinner"
+  }
+}

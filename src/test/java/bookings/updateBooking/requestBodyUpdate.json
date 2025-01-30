@@ -1,0 +1,11 @@
+{
+  "firstname": "Betty",
+  "lastname": "Villa",
+  "totalprice": 1200,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-02-18",
+    "checkout": "2025-03-08"
+  },
+  "additionalneeds": "Breakfast and dinner"
+}
