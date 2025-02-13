@@ -15,16 +15,16 @@ Tecnologías
 Estructura del Proyecto
 ----------------------------------------------------------
 src-test-java/
-├── bookings/                     # Carpeta principal de pruebas
-│   ├── createBooking/             # Pruebas de creación de reservas
-│   ├── getBooking/                # Pruebas de consulta de reservas
-│   ├── updateBooking/             # Pruebas de modificación de reservas
-│   ├── deleteBooking/             # Pruebas de eliminación de reservas
-│   ├── auth/                      # Generación de token de autenticación
-├── features/                      # Archivos .feature con los escenarios de prueba
-├── target/                        # Reportes y resultados de pruebas
-├── pom.xml                         # Configuración de Maven
-└── README.md                      # Documentación del proyecto
+ bookings/                     # Carpeta principal de pruebas
+  createBooking/               # Pruebas de creación de reservas
+  getBooking/                  # Pruebas de consulta de reservas
+  updateBooking/               # Pruebas de modificación de reservas
+  deleteBooking/               # Pruebas de eliminación de reservas
+  auth/                        # Generación de token de autenticación
+  features/                    # Archivos .feature con los escenarios de prueba
+target/                        # Reportes y resultados de pruebas
+pom.xml                        # Configuración de Maven
+README.md                      # Documentación del proyecto
 
 Instalación y Configuración
 ----------------------------------------------------------
