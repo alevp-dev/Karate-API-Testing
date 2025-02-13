@@ -29,8 +29,8 @@ README.md                      # Documentación del proyecto
 Instalación y Configuración
 ----------------------------------------------------------
 Clonar el repositorio
- git clone https://github.com/tu-usuario/karate-booking-tests.git
- cd karate-booking-tests
+ git clone https://github.com/tu-usuario/karate-api-testing.git
+ cd karate-api-testing
 Instalar dependencias
 Asegúrate de tener Java y Maven instalados. Luego, ejecuta:
  mvn clean install
