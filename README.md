@@ -56,15 +56,15 @@ Test reports are automatically generated using Cucumber in HTML and JSON formats
 
 To view reports on Windows
 Open the file explorer and navigate to the project folder.
-
-# Contributions
-Contributions, issues, and feature requests are welcome! Feel free to fork this repository and submit a pull request.
-
----
-Developed with ❤️ by **Alejandra Villa Posada**
 Go to target/cucumber-reports/ and open cucumber-html-reports.html in a browser.
 To view reports on Mac/Linux
 From the terminal, run:
 open target/cucumber-reports/cucumber-html-reports.html
 If you want to regenerate the report manually, execute:
 mvn surefire-report:report
+
+# Contributions
+Contributions, issues, and feature requests are welcome! Feel free to fork this repository and submit a pull request.
+
+---
+Developed with ❤️ by **Alejandra Villa Posada**
