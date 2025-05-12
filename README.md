@@ -14,8 +14,9 @@ Cucumber Reports: Automatic report generation
 
 Project Structure
 ----------------------------------------------------------
+´´´
 src-test-java/
-bookings/                     # Main test folder  
+bookings/                      # Main test folder  
 createBooking/                 # Booking creation tests  
 getBooking/                    # Booking retrieval tests  
 updateBooking/                 # Booking update tests  
@@ -24,6 +25,7 @@ auth/                          # Authentication token generation
 target/                        # Reports and test results  
 pom.xml                        # Maven configuration  
 README.md                      # Project documentation  
+´´´
 
 Installation and Setup
 ----------------------------------------------------------
