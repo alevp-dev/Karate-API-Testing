@@ -14,7 +14,7 @@ Cucumber Reports: Automatic report generation
 
 Project Structure
 ----------------------------------------------------------
-´´´
+```
 src-test-java/
 bookings/                      # Main test folder  
 createBooking/                 # Booking creation tests  
@@ -25,23 +25,31 @@ auth/                          # Authentication token generation
 target/                        # Reports and test results  
 pom.xml                        # Maven configuration  
 README.md                      # Project documentation  
-´´´
+```
 
 Installation and Setup
 ----------------------------------------------------------
 1 Clone the repository
+```
 git clone https://github.com/your-username/karate-api-testing.git
 cd karate-api-testing
+```
 
 2️ Install dependencies
 Ensure Java and Maven are installed. Then, run:
+```
 mvn clean install
+```
 
 3️ Run tests from the console
 On Windows (CMD or PowerShell):
+```
 mvn test
+```
 On Mac/Linux (Terminal):
+```
 mvn test
+```
 
 Test Scenarios
 ----------------------------------------------------------
@@ -61,9 +69,13 @@ Open the file explorer and navigate to the project folder.
 Go to target/cucumber-reports/ and open cucumber-html-reports.html in a browser.
 To view reports on Mac/Linux
 From the terminal, run:
+```
 open target/cucumber-reports/cucumber-html-reports.html
+```
 If you want to regenerate the report manually, execute:
+```
 mvn surefire-report:report
+```
 
 # Contributions
 Contributions, issues, and feature requests are welcome! Feel free to fork this repository and submit a pull request.
